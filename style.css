@@ -1,0 +1,51 @@
+:root {
+  --primary-background-color: hsl(210, 15%, 95%);
+  --primary-header-color: hsl(234, 12%, 34%);
+  --primary-card-color: hsl(212, 6%, 44%);
+  --primary-card-section-color: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-background-color);
+  color: var(--primary-card-color);
+  font-weight: 500;
+  margin: 0;
+}
+h1 {
+  font-weight: 700;
+  color: var(--primary-header-color);
+}
+h2 {
+  color: var(--primary-header-color);
+}
+span {
+  color: hsl(212, 6%, 44%);
+  font-weight: 400;
+}
+header {
+  text-align: center;
+}
+.main-container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-section {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--primary-card-section-color);
+  height: 15em;
+  margin-bottom: 3.5em;
+}
+.card-one {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.card-two {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card-third {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.card-fourt {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}

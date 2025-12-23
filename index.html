@@ -6,40 +6,65 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Four card feature section</title>
+   <link href="./style.css" rel="stylesheet">
+  
+  <title>Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+  <div class="main-container">
+    <header>
+      <h1>
+        <span>Reliable, efficient delivery</span>
+       Powered by Technology</h1> 
+      
+      <p>
+        Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful
+      </p>
+    </header>
+    <div class="card-section card-one">
+      <h2>Supervisor</h2>
+      <p>Monitors activity to identify project roadblocks</p>
+       <svg width="20px" height="20px">
+            <use href="./images/icon-supervisor.svg"></use>
+          </svg>
+    </div>
+    <div class="card-section  card-two">
+      <h2>Team Builder</h2>
+      <p>Scans our talent network to create the optimal team for your project</p>
+       <svg width="20px" height="20px">
+            <use href="./images/icon-team-builder.svg"></use>
+          </svg>
+    </div>
+    <div class="card-section card-third">
+      <h2>Karma</h2>
+      <p>Regularly evaluates our talent to ensure quality</p>
+       <svg width="20px" height="20px">
+            <use href="./images/icon-karma.svg"></use>
+          </svg>
+    </div>
+    <div class="card-section card-fourt">
+      <h2>Calculator</h2>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+       <svg width="20px" height="20px">
+            <use href="./images/icon-calculator.svg"></use>
+          </svg>
+    </div>
+  </div>
 
   
-  <footer>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
