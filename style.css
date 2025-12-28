@@ -10,50 +10,78 @@ body {
   color: var(--primary-card-color);
   font-weight: 500;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+text-align: center;
+margin-top: 3em;
+margin-bottom: 3em;
+padding-left: 0.5em;
+padding-right: 0.5em;
 }
 h1 {
-  font-weight: 700;
   color: var(--primary-header-color);
+font-weight: 700;
+margin: 0;
 }
+
+span {
+  color: var(--primary-card-color);
+  font-size: 30px;
+  font-weight: 600;
+}
+
 h2 {
   color: var(--primary-header-color);
 }
-span {
-  color: var(--primary-card-color);
-  font-weight: 400;
-}
-header {
-  text-align: center;
-}
-svg{
-    margin-left: 15em;
-    margin-top: 3em;
-}
-.main-container {
 
-  /* margin-left: auto;
-  margin-right: auto; */
+svg {
+  margin-left: 15em;
+  margin-top: 3em;
 }
+
 .card-section {
-    /* margin: auto;
+  /* margin: auto;
      width: 90%;
   height: 15em; */
-    padding: 1.8em;
-  border-radius: 5px;
-  background-color: var(--primary-card-section-color);
- 
-  margin-bottom: 3.5em;
-  box-shadow: 0.3em 0.3em 1em rgba(172, 161, 161, 0.6);
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
 .card-one {
   border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 5px;
+  box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
+  margin-bottom: 3.5em;
+  padding: 1.8em;
+  background-color: var(--primary-card-section-color);
 }
 .card-two {
   border-top: 5px solid hsl(0, 78%, 62%);
+  border-radius: 5px;
+  box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
+  margin-bottom: 3.5em;
+  padding: 1.8em;
+  background-color: var(--primary-card-section-color);
 }
 .card-third {
   border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 5px;
+  box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
+  margin-bottom: 3.5em;
+  padding: 1.8em;
+  background-color: var(--primary-card-section-color);
 }
 .card-fourt {
   border-top: 5px solid hsl(212, 86%, 64%);
+  border-radius: 5px;
+  box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
+  margin-bottom: 3.5em;
+  padding: 1.8em;
+  background-color: var(--primary-card-section-color);
 }
