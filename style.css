@@ -5,7 +5,8 @@
   --primary-card-section-color: hsl(0, 0%, 100%);
 }
 body {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(249, 246, 246);
   color: var(--primary-card-color);
   font-weight: 500;
@@ -17,22 +18,34 @@ body {
   align-items: center;
 }
 header {
-text-align: center;
-margin-top: 3em;
-margin-bottom: 3em;
-padding-left: 0.5em;
-padding-right: 0.5em;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.text-header {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+@media screen and (min-width: 768px) {
+  header {
+    width: 500px;
+  }
 }
 h1 {
   color: var(--primary-header-color);
-font-weight: 700;
-margin: 0;
+  font-weight: 600;
+  margin: 0;
+  font-size: 25px;
 }
 
 span {
   color: var(--primary-card-color);
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 26px;
 }
 
 h2 {
@@ -42,6 +55,17 @@ h2 {
 svg {
   margin-left: 15em;
   margin-top: 3em;
+  max-width: 80px;
+}
+
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+  }
 }
 
 .card-section {
@@ -53,35 +77,31 @@ svg {
   padding: 0;
 }
 
-.card-one {
-  border-top: 5px solid hsl(180, 62%, 55%);
+@media screen and (min-width: 768px) {
+  .card-section {
+    margin: auto;
+    display: grid;
+  }
+}
+
+.card-main {
   border-radius: 5px;
   box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
   margin-bottom: 3.5em;
   padding: 1.8em;
+  padding-bottom: 0;
   background-color: var(--primary-card-section-color);
+}
+
+.card-one {
+  border-top: 5px solid hsl(180, 62%, 55%);
 }
 .card-two {
   border-top: 5px solid hsl(0, 78%, 62%);
-  border-radius: 5px;
-  box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
-  margin-bottom: 3.5em;
-  padding: 1.8em;
-  background-color: var(--primary-card-section-color);
 }
 .card-third {
   border-top: 5px solid hsl(34, 97%, 64%);
-  border-radius: 5px;
-  box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
-  margin-bottom: 3.5em;
-  padding: 1.8em;
-  background-color: var(--primary-card-section-color);
 }
 .card-fourt {
   border-top: 5px solid hsl(212, 86%, 64%);
-  border-radius: 5px;
-  box-shadow: 0.3em 0.3em 1em rgba(78, 72, 72, 0.6);
-  margin-bottom: 3.5em;
-  padding: 1.8em;
-  background-color: var(--primary-card-section-color);
 }
